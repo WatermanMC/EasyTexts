@@ -1,0 +1,40 @@
+name: EasyTexts
+description: Lightweight text utility for your server!
+version: '1.0.0'
+authors: [ WatermanMC ]
+main: com.github.WatermanMC.EasyTexts.EasyTexts
+api-version: '1.21.11'
+
+commands:
+  easytexts:
+    description: Main EasyTexts command
+    usage: /easytexts <info|reload>
+    permission: easytexts.admin
+  broadcast:
+    description: Broadcast a message in whole server
+    usage: "/broadcast <msg> [showauthor: bool]"
+    permission: easytexts.broadcast
+  sendmsg:
+    description: Simply send a message to player or yourself
+    usage: /sendmsg <player/me> <msg>
+    permission: easytexts.sendmsg
+  sendactionbar:
+    description: Simply send an actionbar to player or yourself
+    usage: /sendactionbar <player/me> <time_secs> <msg>
+    permission: easytexts.sendactionbar
+  sendtitle:
+    description: Simply send a title and subtitle to player or yourself
+    usage: /sendtitle <player/me> <time_secs> <title> [subtitle]
+    permission: easytexts.sendtitle
+
+permissions:
+  easytexts.admin:
+    default: op
+  easytexts.broadcast:
+    default: op
+  easytexts.sendactionbar:
+    default: op
+  easytexts.sendmsg:
+    default: op
+  easytexts.sendtitle:
+    default: op

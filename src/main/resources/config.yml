@@ -1,0 +1,14 @@
+# EasyTexts
+# Github: https://github.com/WatermanMC/EasyTexts
+# Discord Support: https://discord.gg/Scgqfm5EU4
+
+# Only supports MiniMessage here!
+# MiniMessage previewer: https://webui.advntr.dev/
+# Use \n too for newlines
+random-broadcasts:
+  enabled: false
+  # in secs
+  interval: 600
+  texts:
+    - "<green>Hello server owner!\n\n<red>You can change this in EasyText's config.yml :)"
+    - "<green>You can add more messages too"

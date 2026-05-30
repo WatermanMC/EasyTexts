@@ -1,0 +1,23 @@
+# Only supports MiniMessage here!
+# MiniMessage previewer: https://webui.advntr.dev/
+
+prefix: "<green><b>EasyTexts<reset><white><b>:<reset>"
+
+nopermission: "<red>You don't have permission for that!"
+reloaded: "<green>Plugin reloaded!"
+broadcast: "<yellow><b>BROADCAST</b></yellow><gray>:</gray> %msg%"
+broadcast_author: "<yellow><b>BROADCAST by %author%</b></yellow><gray>:</gray> %msg%"
+broadcast_nomsg: "<red>Please specify a message to broadcast"
+sendmsg:
+  sent: "<gray>Message sent to %target%."
+  target_offline: "<red>Player '%target%' is offline"
+
+actionbar:
+  sent: "<gray>Actionbar sent to %target%."
+  target_offline: "<red>Player '%target%' is offline"
+  invalid_duration: "<red>Invalid duration"
+
+titles:
+  sent: "<gray>Title sent to %target%."
+  target_offline: "<red>Player '%target%' is offline"
+  invalid_duration: "<red>Invalid duration"
